@@ -1,0 +1,133 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Lawyers 4 Literacy</title>
+  <meta name="description" content="Contact Lawyers 4 Literacy. Sample contact form and placeholder details.">
+  <meta property="og:title" content="Contact – Lawyers 4 Literacy">
+  <meta property="og:description" content="Get in touch with L4L. Sample form.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/l4l/contact">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630?text=L4L+Contact">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%233FBCCB'/%3E%3Ctext x='50' y='68' font-size='44' font-weight='800' text-anchor='middle' fill='%23FFD45C' font-family='Poppins,Arial'%3EL4L%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="demo-bar text-center py-2 px-3" id="demoBar">
+    <div class="container d-flex align-items-center justify-content-between flex-wrap gap-2">
+      <span class="small mb-0">Design concept for <strong>Lawyers 4 Literacy (L4L Inc)</strong>. Not the official website. Sample content.</span>
+      <button class="btn btn-sm btn-outline-light rounded-pill" id="dismissDemoBar" aria-label="Dismiss demo bar"><i class="fa-regular fa-circle-xmark"></i></button>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 60 60" width="40" height="40"><rect width="60" height="60" rx="12" fill="#3FBCCB"/><text x="30" y="42" font-size="26" font-weight="800" text-anchor="middle" fill="#FFD45C" font-family="Poppins, Arial">L4L</text></svg></span>
+        <span class="brand-text">Lawyers <span class="text-teal">4</span> Literacy</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-1 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="programmes.html">Programmes</a></li>
+          <li class="nav-item"><a class="nav-link" href="get-involved.html">Get involved</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><a class="btn btn-accent rounded-pill px-4" href="get-involved.html#donate"><i class="fa-solid fa-heart me-1"></i> Donate</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="py-5 bg-mist">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h1 class="display-5 fw-bold mb-4">Contact us</h1>
+            <p class="lead serif-text">We'd love to hear from you. This is a front-end demo form – no data is collected.</p>
+            <form id="contactForm" novalidate>
+              <div class="mb-3">
+                <label for="contactName" class="form-label">Your name (sample)</label>
+                <input type="text" class="form-control" id="contactName" placeholder="e.g. John" required>
+              </div>
+              <div class="mb-3">
+                <label for="contactEmail" class="form-label">Email (sample)</label>
+                <input type="email" class="form-control" id="contactEmail" placeholder="john@example.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="contactMessage" class="form-label">Message (sample)</label>
+                <textarea class="form-control" id="contactMessage" rows="4" placeholder="I'd like to volunteer..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-teal rounded-pill px-4">Send message</button>
+            </form>
+            <div id="contactSuccess" class="alert alert-success mt-3 d-none" role="alert">
+              <i class="fa-regular fa-circle-check me-1"></i> Thank you! Your sample message was received.
+              <a id="contactWhatsapp" href="#" target="_blank" rel="noopener" class="btn btn-success btn-sm rounded-pill mt-2 d-block">
+                <i class="fa-brands fa-whatsapp me-1"></i> Continue on WhatsApp
+              </a>
+            </div>
+            <p class="small text-muted mt-4"><i class="fa-regular fa-shield"></i> All fields are placeholders. No real data is stored or transmitted.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer bg-teal-dark text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <svg viewBox="0 0 60 60" width="36" height="36"><rect width="60" height="60" rx="12" fill="#FFD45C"/><text x="30" y="42" font-size="26" font-weight="800" text-anchor="middle" fill="#14646F" font-family="Poppins, Arial">L4L</text></svg>
+            <span class="fw-bold">Lawyers 4 Literacy</span>
+          </div>
+          <p class="small text-white-50">Sample content for demonstration only. Not a real charity.</p>
+          <p class="small text-white-50">Concept web design by Tesseract Cloud Technologies, Port Moresby.</p>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-semibold">Quick links</h6>
+          <ul class="list-unstyled small">
+            <li><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
+            <li><a href="about.html" class="text-white-50 text-decoration-none">About</a></li>
+            <li><a href="programmes.html" class="text-white-50 text-decoration-none">Programmes</a></li>
+            <li><a href="get-involved.html" class="text-white-50 text-decoration-none">Get involved</a></li>
+            <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-semibold">Contact (placeholder)</h6>
+          <p class="small text-white-50 mb-1"><i class="fa-regular fa-phone me-2"></i>+675 123 4567</p>
+          <p class="small text-white-50"><i class="fa-regular fa-envelope me-2"></i>hello@l4l.example</p>
+          <p class="small text-white-50"><i class="fa-regular fa-location-dot me-2"></i>Port Moresby, PNG</p>
+        </div>
+      </div>
+      <hr class="border-light opacity-25 mt-4">
+      <div class="d-flex flex-wrap justify-content-between align-items-center small text-white-50">
+        <span>© 2025 L4L Inc. Sample demo – all placeholders.</span>
+        <span>Design concept – not official</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-action-bar d-block d-sm-none fixed-bottom bg-white border-top shadow-sm py-2">
+    <div class="container d-flex justify-content-around">
+      <a href="get-involved.html#donate" class="btn btn-teal rounded-pill px-3 py-2" aria-label="Donate"><i class="fa-solid fa-heart me-1"></i> Donate</a>
+      <a href="https://wa.me/67512345678?text=Hello%20Lawyers%204%20Literacy%20demo" class="btn btn-success rounded-pill px-3 py-2" aria-label="WhatsApp us"><i class="fa-brands fa-whatsapp me-1"></i> WhatsApp</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
