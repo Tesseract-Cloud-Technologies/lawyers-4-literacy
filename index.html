@@ -1,0 +1,338 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lawyers 4 Literacy | Reading changes everything.</title>
+  <meta name="description" content="Lawyers 4 Literacy collects and donates quality reading books to rural schools in Papua New Guinea. Donate or volunteer today.">
+  <meta property="og:title" content="Lawyers 4 Literacy | Reading changes everything.">
+  <meta property="og:description" content="Collecting and donating books to rural PNG schools. Join us.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/l4l">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Lawyers+4+Literacy">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%233FBCCB'/%3E%3Ctext x='50' y='68' font-size='44' font-weight='800' text-anchor='middle' fill='%23FFD45C' font-family='Poppins,Arial'%3EL4L%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Demo bar -->
+  <div class="demo-bar text-center py-2 px-3" id="demoBar">
+    <div class="container d-flex align-items-center justify-content-between flex-wrap gap-2">
+      <span class="small mb-0">Design concept for <strong>Lawyers 4 Literacy (L4L Inc)</strong>. Not the official website. Sample content.</span>
+      <button class="btn btn-sm btn-outline-light rounded-pill" id="dismissDemoBar" aria-label="Dismiss demo bar">
+        <i class="fa-regular fa-circle-xmark"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Navbar (shared) -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 60 60" width="40" height="40">
+            <rect width="60" height="60" rx="12" fill="#3FBCCB"/>
+            <text x="30" y="42" font-size="26" font-weight="800" text-anchor="middle" fill="#FFD45C" font-family="Poppins, Arial">L4L</text>
+          </svg>
+        </span>
+        <span class="brand-text">Lawyers <span class="text-teal">4</span> Literacy</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-1 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="programmes.html">Programmes</a></li>
+          <li class="nav-item"><a class="nav-link" href="get-involved.html">Get involved</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a class="btn btn-accent rounded-pill px-4" href="get-involved.html#donate">
+              <i class="fa-solid fa-heart me-1"></i> Donate
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero position-relative">
+      <div class="rays-bg" aria-hidden="true"></div>
+      <div class="container position-relative py-5">
+        <div class="row align-items-center g-4 flex-column-reverse flex-lg-row">
+          <div class="col-lg-6 text-center text-lg-start">
+            <span class="badge bg-sun text-dark mb-3 px-3 py-2 rounded-pill fw-semibold">Sample content – demo only</span>
+            <h1 class="display-4 fw-bold mb-3">Every child deserves a <span class="underline-sun">book</span> in their hands.</h1>
+            <p class="lead mb-4 serif-text">Reading changes everything. Literacy begins at home, one book at a time.</p>
+            <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+              <a href="get-involved.html#donate" class="btn btn-teal btn-lg px-4 rounded-pill">
+                <i class="fa-solid fa-heart me-2"></i> Donate now
+              </a>
+              <a href="get-involved.html#volunteer" class="btn btn-outline-teal btn-lg px-4 rounded-pill">Volunteer</a>
+            </div>
+            <p class="small text-muted mt-4 mb-0"><i class="fa-regular fa-circle-check me-1"></i> Sample testimonial: “The kids' faces lit up.” — Teacher, Central Province</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="book-sun-hero mx-auto">
+              <!-- Inline SVG: open book with sun rays -->
+              <svg viewBox="0 0 400 320" class="book-sun-svg w-100 h-auto" role="img" aria-label="Illustration of an open book with sun rays">
+                <defs>
+                  <linearGradient id="pageGrad" x1="0" x2="1" y1="0" y2="1">
+                    <stop offset="0%" stop-color="#FFFFFF"/>
+                    <stop offset="100%" stop-color="#F1FAFB"/>
+                  </linearGradient>
+                </defs>
+                <!-- Rays -->
+                <g class="rays-group" fill="#FFD45C" opacity="0.85">
+                  <g class="ray ray-1" style="transform-origin:200px 200px;"><path d="M195 130 L200 40 L205 130 Z"/></g>
+                  <g class="ray ray-2" style="transform-origin:200px 200px;"><path d="M230 138 L280 55 L240 142 Z"/></g>
+                  <g class="ray ray-3" style="transform-origin:200px 200px;"><path d="M160 138 L120 55 L158 142 Z"/></g>
+                  <g class="ray ray-4" style="transform-origin:200px 200px;"><path d="M250 158 L330 110 L255 168 Z"/></g>
+                  <g class="ray ray-5" style="transform-origin:200px 200px;"><path d="M145 158 L70 110 L142 168 Z"/></g>
+                </g>
+                <!-- Book -->
+                <g class="book-group">
+                  <path d="M200 200 Q120 150 40 190 L40 260 Q120 220 200 260 Z" fill="url(#pageGrad)" stroke="#14646F" stroke-width="3"/>
+                  <path d="M200 200 Q280 150 360 190 L360 260 Q280 220 200 260 Z" fill="url(#pageGrad)" stroke="#14646F" stroke-width="3"/>
+                  <line x1="200" y1="200" x2="200" y2="260" stroke="#14646F" stroke-width="4"/>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISSION STRIP -->
+    <section class="py-5 bg-mist">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="display-6 fw-bold">How we help</h2>
+          <p class="lead text-muted serif-text">Simple steps, real impact.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 card-top-teal p-4 rounded-4 shadow-sm">
+              <div class="feature-icon mb-3"><i class="fa-regular fa-book-open"></i></div>
+              <h3 class="h5 fw-semibold">Collect</h3>
+              <p class="mb-0 text-secondary">We gather quality reading books from donors, schools, and libraries across PNG.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 card-top-teal p-4 rounded-4 shadow-sm">
+              <div class="feature-icon mb-3"><i class="fa-regular fa-star"></i></div>
+              <h3 class="h5 fw-semibold">Curate</h3>
+              <p class="mb-0 text-secondary">Every book is checked, sorted, and selected to suit different ages and reading levels.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 card-top-teal p-4 rounded-4 shadow-sm">
+              <div class="feature-icon mb-3"><i class="fa-solid fa-truck-fast"></i></div>
+              <h3 class="h5 fw-semibold">Deliver</h3>
+              <p class="mb-0 text-secondary">We hand-deliver boxes to rural schools, helping set up reading corners that last.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT COUNTERS -->
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="display-6 fw-bold">Our impact so far</h2>
+          <p class="text-muted small">(Placeholder sample numbers)</p>
+        </div>
+        <div class="row g-4 text-center counters-row">
+          <div class="col-6 col-md-3">
+            <div class="counter-box p-4 rounded-4 bg-white shadow-sm">
+              <div class="counter-value" data-target="12500">0</div>
+              <div class="counter-label">Books donated</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="counter-box p-4 rounded-4 bg-white shadow-sm">
+              <div class="counter-value" data-target="85">0</div>
+              <div class="counter-label">Schools reached</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="counter-box p-4 rounded-4 bg-white shadow-sm">
+              <div class="counter-value" data-target="12">0</div>
+              <div class="counter-label">Provinces</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="counter-box p-4 rounded-4 bg-white shadow-sm">
+              <div class="counter-value" data-target="320">0</div>
+              <div class="counter-label">Volunteers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED CAMPAIGN + DONATION PROGRESS -->
+    <section class="py-5 bg-mist" id="campaign">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6">
+            <span class="badge bg-sun text-dark mb-2">Featured campaign (sample)</span>
+            <h2 class="display-6 fw-bold mb-3">Books for an island school</h2>
+            <p class="serif-text">Help us deliver 2,000 quality reading books to a rural island school in Milne Bay Province. Every kina helps.</p>
+            <div class="campaign-progress-wrap mt-4">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="fw-semibold">Raised: <span id="amountRaised">K12,500</span></span>
+                <span class="fw-semibold">Goal: K50,000</span>
+              </div>
+              <div class="progress campaign-progress" role="progressbar" aria-label="Campaign donation progress" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" id="campaignBar" style="width: 25%"></div>
+              </div>
+            </div>
+            <p class="mt-3" id="donationImpact">K100 funds 10 books (sample ratio)</p>
+            <div class="d-flex flex-wrap gap-2 mt-3">
+              <button class="btn btn-chip" data-amount="50">K50</button>
+              <button class="btn btn-chip" data-amount="100">K100</button>
+              <button class="btn btn-chip" data-amount="250">K250</button>
+              <button class="btn btn-chip" data-amount="custom">Custom</button>
+            </div>
+            <a href="get-involved.html#donate" class="btn btn-teal mt-4 rounded-pill px-4">Pledge now <i class="fa-solid fa-arrow-right ms-1"></i></a>
+          </div>
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm rounded-4 p-4">
+              <h3 class="h5 fw-semibold mb-3">Sample sponsor logos</h3>
+              <div class="sponsor-marquee overflow-hidden">
+                <div class="sponsor-track d-flex gap-4 py-2">
+                  <span class="sponsor-logo"><i class="fa-solid fa-gavel me-2"></i> PNGLaw</span>
+                  <span class="sponsor-logo"><i class="fa-solid fa-scale-balanced me-2"></i> JusticeCo</span>
+                  <span class="sponsor-logo"><i class="fa-solid fa-book me-2"></i> BookBank</span>
+                  <span class="sponsor-logo"><i class="fa-solid fa-hand-holding-heart me-2"></i> KinaCare</span>
+                  <span class="sponsor-logo"><i class="fa-solid fa-graduation-cap me-2"></i> LearnPNG</span>
+                  <span class="sponsor-logo"><i class="fa-solid fa-briefcase me-2"></i> PacificLaw</span>
+                  <span class="sponsor-logo"><i class="fa-solid fa-gavel me-2"></i> PNGLaw</span>
+                  <span class="sponsor-logo"><i class="fa-solid fa-scale-balanced me-2"></i> JusticeCo</span>
+                  <span class="sponsor-logo"><i class="fa-solid fa-book me-2"></i> BookBank</span>
+                  <span class="sponsor-logo"><i class="fa-solid fa-hand-holding-heart me-2"></i> KinaCare</span>
+                  <span class="sponsor-logo"><i class="fa-solid fa-graduation-cap me-2"></i> LearnPNG</span>
+                  <span class="sponsor-logo"><i class="fa-solid fa-briefcase me-2"></i> PacificLaw</span>
+                </div>
+              </div>
+              <p class="small text-muted mt-3 mb-0">Placeholder sponsor logos – sample only.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-5 bg-teal-dark text-white text-center">
+      <div class="container py-4">
+        <h2 class="display-6 fw-bold text-white mb-3">Ready to change a life?</h2>
+        <p class="lead mb-4 text-white-75">Donate, volunteer, or partner with us today.</p>
+        <div class="d-flex flex-wrap gap-3 justify-content-center">
+          <a href="get-involved.html#donate" class="btn btn-accent btn-lg px-4 rounded-pill">Donate</a>
+          <a href="get-involved.html#volunteer" class="btn btn-outline-light btn-lg px-4 rounded-pill">Volunteer</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (shared) -->
+  <footer class="footer bg-teal-dark text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <svg viewBox="0 0 60 60" width="36" height="36"><rect width="60" height="60" rx="12" fill="#FFD45C"/><text x="30" y="42" font-size="26" font-weight="800" text-anchor="middle" fill="#14646F" font-family="Poppins, Arial">L4L</text></svg>
+            <span class="fw-bold">Lawyers 4 Literacy</span>
+          </div>
+          <p class="small text-white-50">Sample content for demonstration only. Not a real charity.</p>
+          <p class="small text-white-50">Concept web design by Tesseract Cloud Technologies, Port Moresby.</p>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-semibold">Quick links</h6>
+          <ul class="list-unstyled small">
+            <li><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
+            <li><a href="about.html" class="text-white-50 text-decoration-none">About</a></li>
+            <li><a href="programmes.html" class="text-white-50 text-decoration-none">Programmes</a></li>
+            <li><a href="get-involved.html" class="text-white-50 text-decoration-none">Get involved</a></li>
+            <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-semibold">Contact (placeholder)</h6>
+          <p class="small text-white-50 mb-1"><i class="fa-regular fa-phone me-2"></i>+675 123 4567</p>
+          <p class="small text-white-50"><i class="fa-regular fa-envelope me-2"></i>hello@l4l.example</p>
+          <p class="small text-white-50"><i class="fa-regular fa-location-dot me-2"></i>Port Moresby, PNG</p>
+        </div>
+      </div>
+      <hr class="border-light opacity-25 mt-4">
+      <div class="d-flex flex-wrap justify-content-between align-items-center small text-white-50">
+        <span>© 2025 L4L Inc. Sample demo – all placeholders.</span>
+        <span>Design concept – not official</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile bar -->
+  <div class="mobile-action-bar d-block d-sm-none fixed-bottom bg-white border-top shadow-sm py-2">
+    <div class="container d-flex justify-content-around">
+      <a href="get-involved.html#donate" class="btn btn-teal rounded-pill px-3 py-2" aria-label="Donate">
+        <i class="fa-solid fa-heart me-1"></i> Donate
+      </a>
+      <a href="https://wa.me/67512345678?text=Hello%20Lawyers%204%20Literacy%20demo" class="btn btn-success rounded-pill px-3 py-2" aria-label="WhatsApp us">
+        <i class="fa-brands fa-whatsapp me-1"></i> WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- Pledge Modal -->
+  <div class="modal fade" id="pledgeModal" tabindex="-1" aria-labelledby="pledgeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0">
+        <div class="modal-header border-0 pb-0">
+          <h5 class="modal-title fw-bold" id="pledgeModalLabel">Make a sample pledge</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="small text-muted">This is a demo form. No real data is collected or stored.</p>
+          <form id="pledgeForm">
+            <div class="mb-3">
+              <label for="pledgeName" class="form-label">Your name (sample)</label>
+              <input type="text" class="form-control" id="pledgeName" placeholder="e.g. Anna" required>
+            </div>
+            <div class="mb-3">
+              <label for="pledgeEmail" class="form-label">Email (sample)</label>
+              <input type="email" class="form-control" id="pledgeEmail" placeholder="you@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="pledgeAmount" class="form-label">Pledge amount (PGK)</label>
+              <input type="text" class="form-control" id="pledgeAmount" readonly>
+            </div>
+            <button type="submit" class="btn btn-teal rounded-pill w-100">Submit pledge</button>
+          </form>
+          <div id="pledgeSuccess" class="alert alert-success mt-3 d-none" role="alert">
+            <i class="fa-regular fa-circle-check me-1"></i> Thank you! Your sample pledge was received.
+            <a id="pledgeWhatsapp" href="#" target="_blank" rel="noopener" class="btn btn-success btn-sm rounded-pill mt-2 d-block">
+              <i class="fa-brands fa-whatsapp me-1"></i> Continue on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
